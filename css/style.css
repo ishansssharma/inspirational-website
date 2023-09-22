@@ -1,3 +1,47 @@
 body {
 	background-color: #FFF7E8;
+
+}
+
+.header {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(16, 1fr);
+}
+
+.header div {
+	font-size: x-large;
+	line-height: normal
+}
+
+.header__headline {
+	grid-column: 1/6;
+	background-color: #9BA5FF;
+
+
+}
+
+.about {
+	align-self: center;
+	justify-self: center;
+	background-color: #9B9B9B;
+}
+
+.websites {
+	align-self: center;
+	justify-self: center;
+	background-color: #9B9B9B;
+}
+
+.contact {
+	align-self: center;
+	justify-self: center;
+	background-color: #9B9B9B;
+}
+
+.submit {
+	grid-column: 4/5;
+	align-self: center;
+	justify-self: center;
+	background-color: #9B9B9B;
 }
