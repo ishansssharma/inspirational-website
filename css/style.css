@@ -17,31 +17,25 @@ body {
 .header__headline {
 	grid-column: 1/6;
 	background-color: #9BA5FF;
-
-
 }
 
 .about {
-	align-self: center;
-	justify-self: center;
+	background-color: #9B9B9B;
+}
+
+.mesperia {
 	background-color: #9B9B9B;
 }
 
 .websites {
-	align-self: center;
-	justify-self: center;
 	background-color: #9B9B9B;
 }
 
 .contact {
-	align-self: center;
-	justify-self: center;
 	background-color: #9B9B9B;
 }
 
 .submit {
 	grid-column: 4/5;
-	align-self: center;
-	justify-self: center;
 	background-color: #9B9B9B;
 }
