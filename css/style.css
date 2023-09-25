@@ -6,7 +6,7 @@ body {
 .header {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
-	grid-template-rows: repeat(16, 1fr);
+	grid-template-rows: repeat(2, 1fr);
 }
 
 .header div {
@@ -17,25 +17,152 @@ body {
 .header__headline {
 	grid-column: 1/6;
 	background-color: #9BA5FF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+
+
+
 }
 
 .about {
 	background-color: #9B9B9B;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+
+
+}
+
+.about:hover {
+	border: 1px solid black;
+	background-color: blueviolet;
+	border-radius: 15px;
 }
 
 .mesperia {
 	background-color: #9B9B9B;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
 }
+
+.mesperia:hover {
+	border: 1px solid black;
+	background-color: blueviolet;
+	border-radius: 15px;
+}
+
 
 .websites {
 	background-color: #9B9B9B;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
 }
+
+.websites:hover {
+	border: 1px solid black;
+	background-color: blueviolet;
+	border-radius: 15px;
+}
+
 
 .contact {
 	background-color: #9B9B9B;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
 }
+
+.contact:hover {
+	border: 1px solid black;
+	background-color: blueviolet;
+	border-radius: 15px;
+}
+
 
 .submit {
 	grid-column: 4/5;
 	background-color: #9B9B9B;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+}
+
+.submit:hover {
+	border: 1px solid black;
+	background-color: blueviolet;
+	border-radius: 15px;
+}
+
+
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	width: 1424px;
+	height: 1000px;
+	gap: 30px;
+}
+
+.container nav {
+
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+
+
+}
+
+.container nav:hover {
+	background-color: blueviolet;
+	transform: rotate(-2deg);
+}
+
+.footer {
+	background-color: #9B9B9B;
+}
+
+.img-cocacola {
+	width: 333.5px;
+	height: 176px;
+	border-radius: 10px;
+	grid-column: 1/2;
+
+}
+
+
+
+.img-google {
+	width: 333.5px;
+	height: 176px;
+	position: relative;
+	border-radius: 10px;
+	grid-column: 2/3;
+}
+
+.img-soprasteria {
+	width: 333.5px;
+	height: 176px;
+	position: relative;
+	border-radius: 10px;
+	grid-column: 3/4;
 }
