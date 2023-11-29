@@ -1,5 +1,6 @@
 body {
-	background-color: #FFF7E8;
+	background-color: rgb(231, 186, 186);
+
 
 }
 
@@ -7,6 +8,8 @@ body {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	grid-template-rows: repeat(2, 1fr);
+	background-color: #9B9B9B;
+	border: 2px solid black;
 }
 
 .header div {
@@ -20,6 +23,8 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	border: 1px solid black;
+
 
 
 
@@ -43,7 +48,10 @@ body {
 	border: 1px solid black;
 	background-color: blueviolet;
 	border-radius: 15px;
+
 }
+
+
 
 .mesperia {
 	background-color: #9B9B9B;
@@ -137,9 +145,8 @@ body {
 	transform: rotate(-2deg);
 }
 
-.footer {
-	background-color: #9B9B9B;
-}
+
+
 
 .img-cocacola {
 	width: 333.5px;
@@ -165,4 +172,167 @@ body {
 	position: relative;
 	border-radius: 10px;
 	grid-column: 3/4;
+}
+
+.img-apple {
+	width: 333.5px;
+	height: 176px;
+	position: relative;
+	border-radius: 10px;
+	grid-column: 4/5;
+}
+
+.img-kahoot {
+	width: 333.5px;
+	height: 176px;
+	position: relative;
+	border-radius: 10px;
+}
+
+.img-equinor {
+	width: 333.5px;
+	height: 176px;
+	position: relative;
+	border-radius: 10px;
+
+
+}
+
+.img-microsoft {
+	width: 333.5px;
+	height: 176px;
+	position: relative;
+	border-radius: 10px;
+
+}
+
+.img-bouvet {
+	width: 333.5px;
+	height: 176px;
+	position: relative;
+	border-radius: 10px;
+
+}
+
+.img-geodata {
+	width: 333.5px;
+	height: 176px;
+	position: relative;
+	border-radius: 10px;
+}
+
+.img-capgemini {
+	width: 333.5px;
+	height: 176px;
+	position: relative;
+	border-radius: 10px;
+}
+
+.img-webstep {
+	width: 333.5px;
+	height: 176px;
+	position: relative;
+	border-radius: 10px;
+}
+
+.img-experis {
+	width: 333.5px;
+	height: 176px;
+	position: relative;
+	border-radius: 10px;
+}
+
+.img-cognite {
+	width: 333.5px;
+	height: 176px;
+	position: relative;
+	border-radius: 10px;
+}
+
+.img-yara {
+	width: 333.5px;
+	height: 176px;
+	position: relative;
+	border-radius: 10px;
+}
+
+.img-crayon {
+	width: 333.5px;
+	height: 176px;
+	position: relative;
+	border-radius: 10px;
+}
+
+.img-cisco {
+	width: 333.5px;
+	height: 176px;
+	position: relative;
+	border-radius: 10px;
+}
+
+.img-ibm {
+	width: 333.5px;
+	height: 176px;
+	position: relative;
+	border-radius: 10px;
+}
+
+.img-oracle {
+	width: 333.5px;
+	height: 176px;
+	position: relative;
+	border-radius: 10px;
+}
+
+.img-salesforce {
+	width: 333.5px;
+	height: 176px;
+	position: relative;
+	border-radius: 10px;
+}
+
+.sap-website {
+	width: 333.5px;
+	height: 176px;
+	position: relative;
+	border-radius: 10px;
+}
+
+.footer {
+	background-color: #9B9B9B;
+
+}
+
+.footer div {
+	font-size: larger;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+
+}
+
+.footer section {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.footer__button {
+	grid-column: 3/4;
+	grid-row: 3/4;
+}
+
+.footer__button {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+
+
+. @media screen and (max-width:1024px) {
+	.container {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+
+	}
 }
